@@ -97,6 +97,7 @@ import { RouterProvider } from "react-router-dom";
 // import About1 from '../pages/about/About1';
 // import Contact1 from '../pages/contact/Contact1';
 import RootLayOut from './BRArchitect/RootLayOut';
+import CateringRootLayOut from './Catering/Components/CateringRootLayOut';
 
 
 
@@ -106,10 +107,15 @@ export default function App() {
     {
       path: '/',
       element: <RootLayOut/>,
+    },
+    
+    {
+      path:'/catering',
+      element: <CateringRootLayOut/>,
     }
       // children: [
       //   {
-      //     index: true,
+      //      path:'
       //     element: <Content/>,
       //   },
         
