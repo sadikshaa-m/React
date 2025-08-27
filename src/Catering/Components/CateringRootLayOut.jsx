@@ -42,7 +42,7 @@ export default function CateringRootLayOut() {
       <div id="contact">
       <Contact/>
       </div>
-      {/* <Box/> */}
+      
       <Footer/>
     </div>
   )
