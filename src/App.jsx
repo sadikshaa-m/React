@@ -105,11 +105,12 @@ export default function App() {
     {
       path: '/',
       element: <RootLayOut/>,
-      children: [
-        {
-          index: true,
-          element: <Content/>,
-        },
+    }
+      // children: [
+      //   {
+      //     index: true,
+      //     element: <Content/>,
+      //   },
         
         // parent sangai default ma (katai click nagardai awos) bhanna use index path ko satta ani navlink ma to ma slash matra dini
         // path: 'page11',
@@ -122,27 +123,27 @@ export default function App() {
           //     element: <Page12/>
           //   }
           // ]
-          {
-            path: 'about',
-            element: <About/>,
-          },
+    //       {
+    //         path: 'about',
+    //         element: <About/>,
+    //       },
           
-          {
-        path: 'contact',
-        element: <Contact/>,
-      },
+    //       {
+    //     path: 'contact',
+    //     element: <Contact/>,
+    //   },
         
       
-      {
-        path: 'menu',
-        element: <Menu/>,
-      },
-    ]
-    },
+    //   {
+    //     path: 'menu',
+    //     element: <Menu/>,
+    //   },
+    // ]
+    // },
     
-    {
-      path: 'main',
-      element: <Root/>,
+    // {
+    //   path: 'main',
+    //   element: <Root/>,
       // children: [
       //   {
       //     index:true,
@@ -168,11 +169,11 @@ export default function App() {
       
       
       
-    },
-    {
-      path: '*',
-      element: <Notfound/>,
-    },
+    // },
+    // {
+    //   path: '*',
+    //   element: <Notfound/>,
+    // },
   ]);
 
   return <RouterProvider router={router}/>
