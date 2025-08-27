@@ -82,25 +82,26 @@ import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
 
 
-import Contact from '../pages/contact/Contact';
+// import Contact from '../pages/contact/Contact';
 
 
-import About from '../pages/about/About';
+// import About from '../pages/about/About';
 
 
-import Notfound from './not-found/Notfound';
-import Menu from '../pages/menu/Menu';
-import Content from '../pages/Home/Content';
-import Root from '../component/Root';
-import DisplaySection from '../pages/Home/DisplaySection';
-import Projects from '../pages/Projects/Projects';
-import About1 from '../pages/about/About1';
-import Contact1 from '../pages/contact/Contact1';
+// import Notfound from './not-found/Notfound';
+// import Menu from '../pages/menu/Menu';
+// import Content from '../pages/Home/Content';
+// import Root from '../component/Root';
+// import DisplaySection from '../pages/Home/DisplaySection';
+// import Projects from '../pages/Projects/Projects';
+// import About1 from '../pages/about/About1';
+// import Contact1 from '../pages/contact/Contact1';
 import RootLayOut from './BRArchitect/RootLayOut';
 
 
 
 export default function App() {
+  console.log('sadikshas project')
   const router = createBrowserRouter([
     {
       path: '/',
