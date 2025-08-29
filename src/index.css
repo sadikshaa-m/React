@@ -1,10 +1,9 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Boldonse&family=Caveat:wght@400..700&family=Cedarville+Cursive&family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=Libertinus+Serif+Display&family=Luckiest+Guy&family=Meie+Script&family=Mukta:wght@200;300;400;500;600;700;800&display=swap'); */
 @import "tailwindcss";
 @import "tw-animate-css";
 
 
-body{
-    font-family: 'Times New Roman', Times, serif;
-}
+
 
 /* body{
     font-family: Verdana, sans-serif;
@@ -17,7 +16,7 @@ body{
     --shadow-pink-700: white;
     --animate-trin: ani 2s ease-in 0s infinite;
     --font-verdana: Verdana, sans-serif;
-    --font-times: "Times New Roman", Georgia, Serif;
+    --font-times: "DM Serif Text", serif;
     --font-raleway: "Raleway", sans-serif ;
 }
 
@@ -35,21 +34,4 @@ body{
 100%{
     background-color: red;
 }
-}
-
-@layer components{
-    .card{
-        @apply h-55 w-50 rounded-2xl bg-gray-300 p-3; 
-    }
-}
-
-
-
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-    }
-  body {
-    @apply bg-background text-foreground;
-    }
 }
