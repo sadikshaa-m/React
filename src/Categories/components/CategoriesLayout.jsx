@@ -1,15 +1,14 @@
 
-import { Outlet } from 'react-router-dom'
 import HeaderC from './HeaderC'
+import { Outlet } from 'react-router'
 
-export default function Categorieslayout() {
+export default function CategoriesLayout() {
   return (
     <div>
-      
-        <HeaderC></HeaderC>
-        
+      <HeaderC/>
 
-        <Outlet/>
+      <Outlet/>
     </div>
   )
 }
+
