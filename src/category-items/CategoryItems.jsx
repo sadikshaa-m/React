@@ -38,9 +38,9 @@ export default function CategoryItems() {
       <Listbox
       selectionMode="single"
       
-    //     onSelectionChange={(keys) => {
-    // const selectedId = [...keys][0]; 
-    // nav(`/category-ingredients/${selectedId}`);
+  //       onSelectionChange={(keys) => {
+  //   const selectedId = [...keys][0]; 
+  //   nav(`/category-ingredients/${selectedId}`);
   // }}
        
         classNames={{
@@ -56,7 +56,7 @@ export default function CategoryItems() {
        
       >
         {(item) => (
-          <ListboxItem key={item.idMeal} textValue={item.name}>
+          <ListboxItem key={item.idMeal} textValue={item.strMeal}>
             <div className="flex gap-2 items-center">
               <Avatar alt={item.strMeal} className="shrink-0" size="lg" src={item.strMealThumb} />
               <div className="flex flex-col">

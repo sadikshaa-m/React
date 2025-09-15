@@ -33,7 +33,7 @@ export default function Hero() {
      <Card
      isPressable
      key={items.idCategory}
-      onPress={() => nav(`/category-items/${items.strCategory}`)}
+      onPress={() => nav(`category-items/${items.strCategory}`)}
       className="py-4 cursor-pointer hover:bg-transparent hover:transition-all bg-transparent hover:opacity-70">
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
         
