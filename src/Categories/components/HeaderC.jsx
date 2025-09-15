@@ -3,7 +3,7 @@ import { FaFish } from "react-icons/fa";
 
   
     
-export default function App() {
+export default function HeaderC() {
   return (
     <Navbar>
       <NavbarBrand>
