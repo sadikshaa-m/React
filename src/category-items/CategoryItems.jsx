@@ -38,10 +38,7 @@ export default function CategoryItems() {
       <Listbox
       selectionMode="single"
       
-  //       onSelectionChange={(keys) => {
-  //   const selectedId = [...keys][0]; 
-  //   nav(`/category-ingredients/${selectedId}`);
-  // }}
+ 
        
         classNames={{
           base: "max-w-lg",
