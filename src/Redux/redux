@@ -1,0 +1,20 @@
+-- state management is done from redux-- app ma dekhauni, data manage garni (delete, update)-- yo sab redux le garcha
+--state bhaneko data, number, 
+state -- locally manage garni ra (remotely) api ko through bata manage garna sakincha
+state bhaneko ui ma dekhauni data ho => eg: userinfo, products in ecommerce, facebook ma friends, post etc.
+managing state is state management => jastai facebook ma post garyo ani like haru comment haru aunu is management
+local management of state => local storage ko data tanni, dekhauni, delete garni
+api managemnet => api bata data fetch garni
+
+redux => state management library, store app's state(data) in one central place -- so that any part of your app can easily access or update it without passing any props -- we use redux toolkit (it is a set of tools that makes redux simpler, faster to set up and easier to maintain)
+
+//locally
+1) action (deposit slip) =>  k garni ho ta?
+2) reducer (bank teller / calculator)=> (bank ma kam garni manche) dherai ota reducer huncha 
+3) useSelector (e cha selector ma e cha state ma)=> state herna use selector hook use garni
+4) useDispatch => used to call action -- send the action
+5) store (bank) => data bhayeko thau
+
+reducer bhitra action ra state huncha
+locally garda - use createSlice --define garnu parcha action, state => yes bata reducer bancha ani reducer lai store ma layera jodni 
+api ko thru garda - use createapi

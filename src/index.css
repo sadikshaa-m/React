@@ -1,6 +1,10 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Boldonse&family=Caveat:wght@400..700&family=Cedarville+Cursive&family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=Libertinus+Serif+Display&family=Luckiest+Guy&family=Meie+Script&family=Mukta:wght@200;300;400;500;600;700;800&display=swap'); */
+
+
 @import "tailwindcss";
-@import "tw-animate-css";
+@import "tailwindcss";
+@plugin '../hero.js';
+
+@source '.././node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
 
 
 
@@ -9,16 +13,7 @@
     font-family: Verdana, sans-serif;
 } */
 
-@theme {
-    /* --color-*: initial; */
-    --color-primary: purple;
-    --color-greeny: green;
-    --shadow-pink-700: white;
-    --animate-trin: ani 2s ease-in 0s infinite;
-    --font-verdana: Verdana, sans-serif;
-    --font-times: "DM Serif Text", serif;
-    --font-raleway: "Raleway", sans-serif ;
-}
+
 
 
 

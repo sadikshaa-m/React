@@ -27,9 +27,9 @@ export default function CateringRootLayOut() {
   return (
     <div className="font-times">
       <Header />
-      <div id="home">
+      <section id="home">
       <Content/>
-      </div>
+      </section>
       <div id='about'>
 
       <About/>
