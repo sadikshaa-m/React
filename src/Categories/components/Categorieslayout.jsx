@@ -1,8 +1,8 @@
 
 import HeaderC from './HeaderC'
-import { Outlet } from 'react-router'
+import { Outlet } from 'react-router-dom'
 
-export default function CategoriesLayout() {
+export default function Categorieslayout() {
   return (
     <div>
       <HeaderC/>
@@ -11,4 +11,3 @@ export default function CategoriesLayout() {
     </div>
   )
 }
-
