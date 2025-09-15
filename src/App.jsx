@@ -96,14 +96,17 @@ import { RouterProvider } from "react-router-dom";
 // import Projects from '../pages/Projects/Projects';
 // import About1 from '../pages/about/About1';
 // import Contact1 from '../pages/contact/Contact1';
-// import RootLayOut from './BRArchitect/RootLayOut';
-// import CateringRootLayOut from './Catering/Components/CateringRootLayOut';
-// import BlogRootLayOut from './blog/BlogRootLayOut';
-// import Tasks from './Tasks';
-import Categorieslayout from './Categories/components/Categorieslayout';
+import RootLayOut from './BRArchitect/RootLayOut';
+import CateringRootLayOut from './Catering/Components/CateringRootLayOut';
+import BlogRootLayOut from './blog/BlogRootLayOut';
+
+
 import Hero from './Categories/Hero';
 import CategoryItems from './category-items/CategoryItems';
-import CatIngredients from './categoriesIngredients/CatIngredients';
+import Tasks from './all/Tasks';
+import Categorieslayout from './Categories/components/Categorieslayout';
+
+
 
 
 
@@ -118,32 +121,29 @@ import CatIngredients from './categoriesIngredients/CatIngredients';
 export default function App() {
  
   const router = createBrowserRouter([
-    // {
-    //   path: '/',
-    //   element: <RootLayOut/>,
-    // },
-    
-    // {
-    //   path:'/catering',
-    //   element: <CateringRootLayOut/>,
-    // },
-    // {
-    //   path: '/blog',
-    //   element: <BlogRootLayOut/>
-    // },
-    
-    
-    // {
-    //   path: '/task',
-    //   element: <Tasks/>
-    // },
-    // {
-    //   path: '/category',
-    //   element: <Categorieslayout/>
-    // },
-
     {
       path: '/',
+      element: <RootLayOut/>,
+    },
+    
+    {
+      path:'/catering',
+      element: <CateringRootLayOut/>,
+    },
+    {
+      path: '/blog',
+      element: <BlogRootLayOut/>
+    },
+    
+    
+    {
+      path: '/task',
+      element: <Tasks/>
+    },
+    
+
+    {
+      path: '/category',
       element: <Categorieslayout/>,
       children: [
 
