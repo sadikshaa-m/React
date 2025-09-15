@@ -1,5 +1,5 @@
 
-import { Outlet } from 'react-router'
+import { Outlet } from 'react-router-dom'
 import HeaderC from './HeaderC'
 
 export default function Categorieslayout() {
